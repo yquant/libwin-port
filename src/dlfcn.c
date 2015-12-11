@@ -25,7 +25,7 @@
 #include "dlfcn.h"
 
 static int has_error = 0;
-static char error_buf[65535];
+static char error_buf[256];
 
 static void save_error()
 {
